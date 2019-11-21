@@ -30,6 +30,20 @@ h1{
    
 }
 
+.navbar
+{
+    border:0px;
+    background-color: #4aaaa5;
+    color:white;
+}
+
+.nav-link{
+    color:white;
+}
+
+.navbar-toggler-icon{
+    color:white;
+}
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -38,6 +52,9 @@ body{
 }
 
 
+.col-sm-9{
+    font-size:22px;
+}
 
 div.aboutLink{
     
@@ -99,13 +116,8 @@ div.contactLink{
     
 }
 
-a{
-    color: yellow;
-}
 
-/* p{
-    padding-left: 33px; */
-}
+
 
 .aboutBorder{
 
@@ -232,12 +244,13 @@ a{
 
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    height: 3%;
+    background-color:#666666;
     width: 100%;
-    height: 4%;
-    background-color: #666666;
-    color: #ffffff;
+    color: white;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: small;
@@ -248,11 +261,10 @@ footer{
 .rightabovefooter{
     
    
-    
+    position: fixed;
+    bottom: 25px;
+    height: 0.8%;
+    background-color:#4aaaa5;
     width: 100%;
-    height: 20%;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center bottom;
-   
+    z-index:-1;
 }
